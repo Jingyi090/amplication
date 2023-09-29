@@ -42,7 +42,7 @@
     "reflect-metadata": "0.1.13",
     "swagger-ui-express": "4.3.0",
     "ts-node": "10.9.1",
-    "type-fest": "0.13.1",
+    "type-fest": "0.21.3",
     "validator": "^13.9.0"
   },
   "devDependencies": {
