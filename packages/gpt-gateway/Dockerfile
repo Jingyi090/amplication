@@ -1,4 +1,4 @@
-FROM node:18.13.0-slim AS production
+FROM node:hydrogen-bookworm-slim AS production
 
 # create arguments of builds time variables
 ARG component=gpt-gateway
