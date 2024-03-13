@@ -24,7 +24,7 @@ COPY . .
 RUN npm run build
 
 # multi-stage: production (runtime)
-FROM node:18.13.0-slim AS production
+FROM node:hydrogen-bookworm-slim AS production
 
 # create arguments of builds time variables
 ARG user=amplication
